@@ -1,6 +1,6 @@
-const D = require("discord.js");
-const client = new D.Client();
-const moment = require("moment")
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
