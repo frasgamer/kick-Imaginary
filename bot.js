@@ -22,5 +22,4 @@ function parseDate(str) {
 function datediff(first, second) {
     return Math.round((second-first)/(10006060*24));
 };
-
 client.login(process.env.BOT_TOKEN);
